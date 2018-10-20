@@ -1,0 +1,22 @@
+uuid: 727e6a63-5b77-4ba9-a2f6-0021bee44806
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - industrial_zymphonies_theme
+_core:
+  default_config_hash: VDwaBej8eQ-j0TG9p5Q1g9noiHSKX_cTTU0fBCuv2ko
+id: industrial_zymphonies_theme_messages
+theme: industrial_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
